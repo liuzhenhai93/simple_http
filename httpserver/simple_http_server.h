@@ -9,7 +9,7 @@
 #include <unordered_map>
 #include <unordered_set>
 
-#include "mongoose/mongoose.h"
+#include "mongoose.h"
 
 typedef void OnRspCallback(mg_connection *c, const std::string &rsp);
 using ReqHandler = std::function<bool(const std::string &, const std::string &,
